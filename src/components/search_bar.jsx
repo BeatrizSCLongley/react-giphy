@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
 class SearchBar extends Component {
+  // SearchBar is called on App with props as searchFunction
+  // this way we can use it here as props
   handleUpdate = (event) => {
     // console.log(event.target.value) // log each letter typed
-
+    this.props.searchFunction(event.target.value);
   }
 
   render() {
