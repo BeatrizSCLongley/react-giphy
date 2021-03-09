@@ -11,7 +11,7 @@ class App extends Component {
 
     this.state = {
       gifs: [],
-      selectedGifId: null
+      selectedGifId: null // you can also display a default id
     };
 
     // this.search('women'); // to test
