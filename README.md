@@ -1,7 +1,8 @@
 # react-giphy
 
-An app built with React, with search functionality, using an API to get gifs from Giphy platform.
-From Le Wagon's react-boilerplate with the following config:
+**An app built with React, with search functionality, using an API to get gifs from Giphy platform.**
+
+Using Le Wagon's react-boilerplate with the following config:
 
 - React, ReactDOM
 - Webpack 4
